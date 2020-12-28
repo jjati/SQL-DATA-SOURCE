@@ -17,7 +17,7 @@ This database is all food services, and it has agent table. The agents are task 
 
 ##  The Database Tables
  #Agents    - This table return the list of agents who are assigned for booking and schedules or the employees.
- #Customer  - Are those who ordered foods from different places  
+ #Customer  - Are those who ordered foods from different places.
  #Orders    - This table show the order number, order amount and etc. 
 
 ## Food Servicing Database Dependency Diagram
