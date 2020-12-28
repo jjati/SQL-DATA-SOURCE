@@ -1,0 +1,7 @@
+SELECT
+	AGENT_CODE,
+	COUNT(CUST_CODE) Customers_count
+FROM
+	customer
+GROUP BY
+	AGENT_CODE;
