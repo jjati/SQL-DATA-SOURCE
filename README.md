@@ -17,6 +17,8 @@ This database is all food services, and it has agent table. The agents are task 
 
 ##  The Database Tables
 ## Food Servicing Database Dependency Diagram
+![image](https://user-images.githubusercontent.com/73151103/103195505-6cb24b00-48b0-11eb-9e8f-914c6586e264.png)
+
 ## SQL QUERIES
 #### SQL UNION
 #### AVG SQL
