@@ -26,7 +26,7 @@ This database is all about the records of customer’s order, where in order sch
    2.  Customer – This table show all the list of customers details.
    3.  Order – This table show all the list of order details and schedule for the customer’s order.
  
-## Food Servicing Database Dependency Diagram
+## Agent Database Dependency Diagram
 ## SQL QUERIES
 #### SQL UNION
 #### AVG SQL
