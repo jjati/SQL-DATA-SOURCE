@@ -45,5 +45,51 @@ FROM customer;
 
 [Go Back](/README.md/)
 
+#SQL CONCAT
+
+SELECT CONCAT(WORKING_AREA,'  ', CUST_COUNTRY) 
+FROM customer;
+
+#Output
+
+![](/Results/query4.JPG)
+
+[Go Back](/README.md/)
+
+#SQL LIMIT
+
+SELECT AGENT_CODE,
+       AGENT_NAME, 
+       COMMISSION
+FROM
+ agents 
+   ORDER BY COMMISSION DESC
+   LIMIT 3;
+   
+#Output
+
+ ![](/Results/query5.JPG)
+ 
+ [Go Back](/README.md/)
+
+#SQL RIGHT JOIN 
+ 
+SELECT agents.AGENT_CODE, agentS.AGENT_NAME, customer.WORKING_AREA
+FROM agents
+RIGHT JOIN customer ON agents.AGENT_CODE = customer.AGENT_CODE
+ORDER BY customer.CUST_NAME;
+#SQL LEFT JOIN
+
+#Output
+
+ ![](/Results/query6.JPG)
+ 
+ [Go Back](/README.md/)
+ 
+ 
+
+
+
+
 
 
