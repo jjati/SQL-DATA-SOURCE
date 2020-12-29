@@ -28,7 +28,14 @@ This database is all about the records of customer’s order, where in order sch
  
 ## Agent Database Dependency Diagram
 ## SQL QUERIES
+
 #### SQL UNION
+  1. This query returns the Bangalore Country from both agents and customer table.
+  2. This query combines the result of selected SELECT statement. It removes the duplicate
+      between SELECT statement. 
+  3.
+      
+
 #### AVG SQL
 #### SQL CASE
 #### SQL CONCAT 
