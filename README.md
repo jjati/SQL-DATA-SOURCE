@@ -44,6 +44,9 @@ This database is all about the records of customer’s order, where in order sch
   2. This query functions provides the average value of a column.
   3. [Sample Output](/query.md) 
 #### SQL CASE
+  1. This query checks each row to see if the conditional statement is true.
+  2. This query shows the value based on one or more conditional test.
+  3. [Sample Output](/query.md) 
 #### SQL CONCAT 
 #### SQL LIMIT 
 #### SQL RIGHT JOIN
