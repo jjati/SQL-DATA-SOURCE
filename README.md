@@ -85,15 +85,15 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL DISTINCT
   1. This query returns the selected columns in 1 table
   2. This query shows only distinct values in the specified column.
-  3.[Sample Output](/query.md)
+  3. [Sample Output](/query.md)
 #### SQL HAVING
   1.
   2.
   3.[Sample Output](/query.md)
-####
+#### SQL LIKE OPERATOR
   1.
   2.
-  3.
+  3. [Sample Output](/query.md)
 ####
   1.
   2.
