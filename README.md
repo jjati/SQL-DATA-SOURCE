@@ -61,7 +61,7 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL INNER JOIN
   1. This query returns all the records from table 1 and table 2 where the join condition is met.
   2. This query shows the record at the intersection of two tables.
-  3. 
+  3. [Sample Output](/query.md)
 #### SQ NTILE
   1. This query returns the assigned group which is numbering starting from one.
   2. This query distributes row of an ordered partition into a specific number.
@@ -71,12 +71,12 @@ This database is all about the records of customer’s order, where in order sch
   2. This query shows the ranking value for each row, to know the specific ranking value of each row.
   3. [Sample Output](/query.md)
 #### SQL MAX
-  1.
-  2.
+  1. This query returns the maximum value in payment amount.
+  2. This query used to return the maximum value of SELECT statement.
   3.[Sample Output](/query.md)
 #### SQL GROUP BY
-  1.
-  2.
+  1. This query return the arrange data according to the group
+  2. This query specifies the selected statement partitions result in a rows.
   3.[Sample Output](/query.md)
 #### SQL TRIGER
   1.
@@ -85,7 +85,7 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL DISTINCT
   1. This query returns the selected columns in 1 table
   2. This query shows only distinct values in the specified column.
-  3. [Sample Output](/query.md)
+  3.  [Sample Output](/query.md)
 #### SQL HAVING
   1.
   2.
