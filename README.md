@@ -21,6 +21,7 @@ This database is all about the records of customer’s order, where in order sch
 
 ##  The Database Tables
  
+ 
 ## Food Servicing Database Dependency Diagram
 ## SQL QUERIES
 #### SQL UNION
