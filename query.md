@@ -86,6 +86,120 @@ ORDER BY customer.CUST_NAME;
  
  [Go Back](/README.md/)
  
+ #SQL LEFT JOIN
+ 
+SELECT agents.AGENT_CODE, agentS.AGENT_NAME, customer.WORKING_AREA
+FROM agents
+LEFT JOIN customer ON agents.AGENT_CODE = customer.AGENT_CODE
+ORDER BY customer.CUST_NAME;
+
+#Output
+
+![](/Results/query7.JPG)
+ 
+ [Go Back](/README.md/)
+ 
+ #SQL NTILE
+ 
+SELECT PAYMENT_AMT,
+       NTILE(5) OVER(ORDER BY PAYMENT_AMT DESC) Rank
+       FROM customer
+       ORDER BY PAYMENT_AMT;
+       
+#Output
+
+ ![](/Results/query8.JPG)
+ 
+ [Go Back](/README.md/)
+       
+ #SQL RANKING FUNCTION 
+ 
+   
+SELECT CUST_NAME,
+       WORKING_AREA,
+       PAYMENT_AMT,
+       ROW_NUMBER() OVER(ORDER BY PAYMENT_AMT)
+       RowNumber
+       FROM customer
+       
+ #Output
+
+ ![](/Results/query9.JPG)
+ 
+ [Go Back](/README.md/)
+ 
+ #SQL MAX
+ 
+SELECT CUST_NAME, OPENING_AMT, RECEIVE_AMT, PAYMENT_AMT
+FROM customer
+WHERE PAYMENT_AMT = (SELECT MAX(PAYMENT_AMT) FROM customer);
+
+#Output
+
+ ![](/Results/query10.JPG)
+ 
+ [Go Back](/README.md/)
+ 
+ #SQL GROUP BY
+ 
+ SELECT
+	AGENT_CODE,
+	COUNT(CUST_CODE) Customers_count
+FROM
+	customer
+GROUP BY
+	AGENT_CODE;
+  
+ #Output
+
+ ![](/Results/query11.JPG)
+ 
+ [Go Back](/README.md/)
+  
+ #SQL TRIGGER
+ 
+ALTER TABLE customer ADD COLUMN complete_address VARCHAR(50);
+UPDATE customer SET complete_address = CONCAT(CUST_CITY, ' - ', WORKING_AREA, ', ', CUST_COUNTRY);
+
+CREATE TRIGGER insert_trigger BEFORE INSERT ON customer FOR EACH ROW SET new.complete_address = CONCAT(new.CUST_CITY,', ', new.WORKING_AREA,',',new.CUST_COUNTRY);
+CREATE TRIGGER update_trigger BEFORE UPDATE ON customer FOR EACH ROW SET new.complete_address = CONCAT(new.CUST_CITY,', ', new.WORKING_AREA,', ',new.CUST_COUNTRY);
+
+ #Output
+
+ ![](/Results/query12.JPG)
+ 
+ [Go Back](/README.md/)
+
+ #SQL DISTINCT
+ 
+SELECT distinct CUST_CITY, CUST_COUNTRY
+FROM customer 
+where 1 = (select count(distinct CUST_CITY)
+country 
+WHERE CUST_CITY >= CUST_CITY); 
+
+ #Output
+
+ ![](/Results/query13.JPG)
+ 
+ [Go Back](/README.md/)
+
+ #SQL HAVING
+ 
+ SELECT CUST_CODE, CUST_NAME, SUM(PAYMENT_AMT)
+FROM customer
+GROUP BY CUST_CODE
+HAVING SUM(PAYMENT_AMT) = 7000.00;
+
+#Output
+
+ ![](/Results/query14.JPG)
+ 
+ [Go Back](/README.md/)
+
+
+
+ 
  
 
 
