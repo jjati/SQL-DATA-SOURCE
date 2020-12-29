@@ -1,0 +1,5 @@
+SELECT distinct CUST_CITY, CUST_COUNTRY
+FROM customer 
+where 1 = (select count(distinct CUST_CITY)
+country 
+WHERE CUST_CITY >= CUST_CITY); 
