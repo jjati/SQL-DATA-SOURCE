@@ -6,5 +6,6 @@ SELECT CUST_CODE, WORKING_AREA FROM customer WHERE WORKING_AREA ='Bangalore';
 
 #Output
 
+![](/Results/query1.jpg)
 
-[Go Back](/README.md/#Query 1)
+[Go Back](/README.md/)
