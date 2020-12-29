@@ -21,6 +21,10 @@ This database is all about the records of customer’s order, where in order sch
 
 ##  The Database Tables
  
+ The Agent Database and each tables.
+   1.  Agent – This table show the list of agent name, agent code, working area and etc. This table is assigned to order the customers need. 
+   2.  Customer – This table show all the list of customers details.
+   3.  Order – This table show all the list of order details and schedule for the customer’s order.
  
 ## Food Servicing Database Dependency Diagram
 ## SQL QUERIES
