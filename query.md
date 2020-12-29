@@ -178,7 +178,7 @@ where 1 = (select count(distinct CUST_CITY)
 country 
 WHERE CUST_CITY >= CUST_CITY); 
 
- #Output
+#Output
 
  ![](/Results/query13.JPG)
  
@@ -196,8 +196,33 @@ HAVING SUM(PAYMENT_AMT) = 7000.00;
  ![](/Results/query14.JPG)
  
  [Go Back](/README.md/)
+ 
+ #SQL BETWEEN OPERATOR
+ 
+ SELECT 
+     CUST_NAME,
+     WORkING_AREA
+FROM
+    customer
+WHERE PAYMENT_AMT BETWEEN '6000.00' AND '9000.00';
 
+#Output
 
+ ![](/Results/query15.JPG)
+ 
+ [Go Back](/README.md/)
+ 
+ #SQL LIKE OPERATOR
+ 
+SELECT CUST_NAME, WORKING_AREA
+FROM customer
+WHERE CUST_NAME LIKE 'S%';
+
+#Output
+
+ ![](/Results/query16.JPG)
+ 
+ [Go Back](/README.md/)
 
  
  
