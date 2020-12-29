@@ -61,15 +61,15 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL INNER JOIN
   1. This query returns all the records from table 1 and table 2 where the join condition is met.
   2. This query shows the record at the intersection of two tables.
-  3. [Sample Output](/query.md)
+  3. 
 #### SQ NTILE
   1. This query returns the assigned group which is numbering starting from one.
   2. This query distributes row of an ordered partition into a specific number.
-  3. [Sample Output](/query.md)
+  3. 
 #### SQL RANKING FUNCTION
   1. This query returns the selected column in a table where in rank with specified value.
   2. This query shows the ranking value for each row, to know the specific ranking value of each row.
-  3. [Sample Output](/query.md)
+  3. 
 #### SQL MAX
   1.
   2.
