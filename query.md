@@ -223,8 +223,29 @@ WHERE CUST_NAME LIKE 'S%';
  ![](/Results/query16.JPG)
  
  [Go Back](/README.md/)
-
  
+ #SQL INNER BY
+ 
+SELECT agents.AGENT_CODE, agentS.AGENT_NAME, customer.WORKING_AREA
+FROM agents
+INNER JOIN customer ON agents.AGENT_CODE = customer.AGENT_CODE
+ORDER BY customer.CUST_NAME;
+ 
+ #Output
+
+ ![](/Results/query17.JPG)
+ 
+ [Go Back](/README.md/)
+
+ #SQL ORDER BY
+ 
+ SELECT CUST_CODE, ORD_NUM, ORD_AMOUNT FROM orders ORDER BY ORD_DATE='2008-01-08'
+ 
+ #Output
+
+ ![](/Results/query18.JPG)
+ 
+ [Go Back](/README.md/)
  
 
 
