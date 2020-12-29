@@ -37,7 +37,7 @@ This database is all about the records of customer’s order, where in order sch
   
    
 
-    
+   
 
 #### AVG SQL
 #### SQL CASE
