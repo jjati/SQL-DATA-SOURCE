@@ -247,7 +247,18 @@ ORDER BY customer.CUST_NAME;
  
  [Go Back](/README.md/)
  
+ #SQL COUNT
+ 
+SELECT ORD_AMOUNT, COUNT(*) FROM orders GROUP BY ORD_AMOUNT;
+SELECT *FROM orders WHERE 1;
+ 
+ #Output
 
+ ![](/Results/query19.JPG)
+ 
+ [Go Back](/README.md/)
+ 
+ #
 
 
 
