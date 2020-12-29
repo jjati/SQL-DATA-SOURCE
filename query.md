@@ -251,5 +251,3 @@ ORDER BY customer.CUST_NAME;
 
 
 
-
-
