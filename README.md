@@ -65,31 +65,31 @@ This database is all about the records of customer’s order, where in order sch
 #### SQ NTILE
   1. This query returns the assigned group which is numbering starting from one.
   2. This query distributes row of an ordered partition into a specific number.
-  3. 
+  3. [Sample Output](/query.md)
 #### SQL RANKING FUNCTION
   1. This query returns the selected column in a table where in rank with specified value.
   2. This query shows the ranking value for each row, to know the specific ranking value of each row.
-  3. 
+  3. [Sample Output](/query.md)
 #### SQL MAX
   1.
   2.
-  3.
+  3.[Sample Output](/query.md)
 #### SQL GROUP BY
   1.
   2.
-  3.
+  3.[Sample Output](/query.md)
 #### SQL TRIGER
   1.
   2.
-  3.
+  3.[Sample Output](/query.md)
 #### SQL DISTINCT
-  1.
-  2.
-  3.
+  1.  This query returns the selected columns in 1 table
+  2.  This query shows only distinct values in the specified column.
+  3.[Sample Output](/query.md)
 #### SQL HAVING
   1.
   2.
-  3.
+  3.[Sample Output](/query.md)
 ####
   1.
   2.
