@@ -34,6 +34,8 @@ This database is all about the records of customer’s order, where in order sch
   2. This query combines the result of selected SELECT statement. It removes the duplicate
       between SELECT statement. 
   3. Sample Output
+  
+  
     ![image](https://user-images.githubusercontent.com/73151103/103261223-b6616b00-496e-11eb-88c5-be076c32bb90.png)
 
       
