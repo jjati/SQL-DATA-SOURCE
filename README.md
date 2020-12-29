@@ -51,3 +51,17 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL INNER JOIN
 #### SQ NTILE
 #### SQL RANKING FUNCTION
+#### SQL MAX
+#### SQL GROUP BY
+#### SQL TRIGER
+#### SQL DISTINCT
+#### SQL HAVING
+####
+####
+####
+####
+####
+####
+####
+
+
