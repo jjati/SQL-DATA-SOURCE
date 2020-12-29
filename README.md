@@ -79,8 +79,8 @@ This database is all about the records of customer’s order, where in order sch
   2. This query specifies the selected statement partitions result in a rows.
   3.[Sample Output](/query.md)
 #### SQL TRIGER
-  1.
-  2.
+  1. This query return automatically executed data that combine each other in selected column 
+  2. This query defined for a specific table.
   3.[Sample Output](/query.md)
 #### SQL DISTINCT
   1. This query returns the selected columns in 1 table
