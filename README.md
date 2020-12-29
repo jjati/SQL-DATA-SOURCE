@@ -40,6 +40,9 @@ This database is all about the records of customer’s order, where in order sch
    
 
 #### AVG SQL
+  1. This query returns the receive amount of the customer using subquery.
+  2. This query functions provides the average value of a column.
+  3. [Sample Output](/query.md) 
 #### SQL CASE
 #### SQL CONCAT 
 #### SQL LIMIT 
