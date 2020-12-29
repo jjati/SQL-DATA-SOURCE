@@ -1,0 +1,5 @@
+ALTER TABLE customer ADD COLUMN complete_address VARCHAR(50);
+UPDATE customer SET complete_address = CONCAT(CUST_CITY, ' - ', WORKING_AREA, ', ', CUST_COUNTRY);
+
+CREATE TRIGGER insert_trigger BEFORE INSERT ON customer FOR EACH ROW SET new.complete_address = CONCAT(new.CUST_CITY,', ', new.WORKING_AREA,',',new.CUST_COUNTRY);
+CREATE TRIGGER update_trigger BEFORE UPDATE ON customer FOR EACH ROW SET new.complete_address = CONCAT(new.CUST_CITY,', ', new.WORKING_AREA,', ',new.CUST_COUNTRY);
