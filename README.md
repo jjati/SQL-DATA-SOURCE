@@ -115,5 +115,3 @@ This database is all about the records of customer’s order, where in order sch
   3. [Sample Output](/query.md)
   
 
-
-
