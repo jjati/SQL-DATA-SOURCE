@@ -27,6 +27,9 @@ This database is all about the records of customer’s order, where in order sch
    3.  Order – This table show all the list of order details and schedule for the customer’s order.
  
 ## Agent Database Dependency Diagram
+
+![image](https://user-images.githubusercontent.com/73151103/103329207-c1c59c80-4a29-11eb-8bf6-723beb187618.png)
+
 ## SQL QUERIES
 
 #### SQL UNION
