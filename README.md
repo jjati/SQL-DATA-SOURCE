@@ -36,35 +36,35 @@ This database is all about the records of customer’s order, where in order sch
   1. This query returns the Bangalore Country from both agents and customer table.
   2. This query combines the result of selected SELECT statement. It removes the duplicate
       between SELECT statement. 
-  3. [Sample Output](/query.md/# SQL-UNION)
+  3. [Sample Output](/query.md/#SQL-UNION)
 #### SQL CORRELATED SUBQUERY
   1. This query returns the receive amount of the customer using subquery.
   2. This query functions provides the average value of a column.
-  3. [Sample Output](/query.md/# SQL-CORRELATED-SUBQUERY) 
+  3. [Sample Output](/query.md/#SQL-CORRELATED-SUBQUERY) 
 #### SQL CASE
   1. This query checks each row to see if the conditional statement is true.
   2. This query shows the value based on one or more conditional test.
-  3. [Sample Output](/query.md/# SQL-CASE) 
+  3. [Sample Output](/query.md/#SQL-CASE) 
 #### SQL CONCAT 
   1. This query returns these two strings and obtained ‘LondonUK’.
   2. This query is used to concentrate two strings to form a single string. 
-  3. [Sample Output](/query.md/# SQL-CONCAT)
+  3. [Sample Output](/query.md/#SQL-CONCAT)
 #### SQL LIMIT 
   1. This query returns the Limit number of rows in selected columns.
   2. This query constrains the number of rows, it is a good way to reduce the execution of other details.
-  3. [Sample Output](/query.md/# SQL-LIMIT)
+  3. [Sample Output](/query.md/#SQL-LIMIT)
 #### SQL RIGHT JOIN
   1. This query returns all the records from table 2 along with records of table 1 where the condition is met.
   2. This query must match the rows together to the right join condition in order to return the selected table 
-  3. [Sample Output](/query.md/# SQL-RIGHT-JOIN)
+  3. [Sample Output](/query.md/#SQL-RIGHT-JOIN)
 #### SQL LEFT JOIN
   1. This query returns all the records from table 1 along with records of table 2 where the condition is met.
   2. This query must match the rows together to the left join condition in order to return the selected table
-  3. [Sample Output](/query.md/# SQL-LEFT-JOIN)
+  3. [Sample Output](/query.md/#SQL-LEFT-JOIN)
 #### SQL INNER JOIN 
   1. This query returns all the records from table 1 and table 2 where the join condition is met.
   2. This query shows the record at the intersection of two tables.
-  3. [Sample Output](/query.md/# SQL-INNER-JOIN)
+  3. [Sample Output](/query.md/#SQL-INNER-JOIN)
 #### SQ NTILE
   1. This query returns the assigned group which is numbering starting from one.
   2. This query distributes row of an ordered partition into a specific number.
@@ -72,46 +72,46 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL RANKING FUNCTION
   1. This query returns the selected column in a table where in rank with specified value.
   2. This query shows the ranking value for each row, to know the specific ranking value of each row.
-  3. [Sample Output](/query.md/# SQL-RANKING-FUNCTION)
+  3. [Sample Output](/query.md/#SQL-RANKING-FUNCTION)
 #### SQL MAX
   1. This query returns the maximum value in payment amount.
   2. This query used to return the maximum value of SELECT statement.
-  3. [Sample Output](/query.md/# SQL-MAX)
+  3. [Sample Output](/query.md/#SQL-MAX)
 #### SQL GROUP BY
   1. This query return the arrange data according to the group
   2. This query specifies the selected statement partitions result in a rows.
-  3. [Sample Output](/query.md/# SQL-GROUP-BY)
+  3. [Sample Output](/query.md/#SQL-GROUP-BY)
 #### SQL TRIGER
   1. This query return automatically executed data that combine each other in selected column 
   2. This query defined for a specific table.
-  3. [Sample Output](/query.md/# SQL-TRIGER)
+  3. [Sample Output](/query.md/#SQL-TRIGER)
 #### SQL DISTINCT
   1. This query returns the selected columns in 1 table
   2. This query shows only distinct values in the specified column.
-  3. [Sample Output](/query.md/# SQL-DISTINCT)
+  3. [Sample Output](/query.md/#SQL-DISTINCT)
 #### SQL HAVING
   1. This query returns the sum payment of selected customer with the given specific value.
   2. This query is important because it is used to filter values from a group.
-  3. [Sample Output](/query.md/# SQL-HAVING)
+  3. [Sample Output](/query.md/#SQL-HAVING)
 #### SQL LIKE OPERATOR
   1. This query returns the results according to the statement given that start with 's'.
   2. This query is important becase it is used in a WHERE clause to search for a specified pattern. 
-  3. [Sample Output](/query.md/# SQL-LIKE-OPERATOR)
+  3. [Sample Output](/query.md/#SQL-LIKE-OPERATOR)
 #### SQL ORDER BY
   1. This query returns the order amount, order number order by date given. 
   2. This query is important because it can sort data, or it can order data by multiple columns.
-  3. [Sample Output](/query.md/# SQL-ORDER-BY)
+  3. [Sample Output](/query.md/#SQL-ORDER-BY)
 #### SQL COUNT
   1. This query returns the count of order amount.
   2. This query is important find the number of unique values within a group
-  3. [Sample Output](/query.md/# SQL-COUNT)
+  3. [Sample Output](/query.md/#SQL-COUNT)
 #### SQL BETWEEN OPERATOR
   1. This query returns selected column in between the 2 given statement value. 
   2. This query is important becuase instead of using greater than or equal to and less than it is easy to return the aiming result.
-  3. [Sample Output](/query.md/# SQL-BETWEEN-OPERATOR)
+  3. [Sample Output](/query.md/#SQL-BETWEEN-OPERATOR)
 #### SQL JOIN ORDER
   1. This query return the selected tables and foreign key in each table 
   2. This query is importan for us to know the foreign key between 2 tables.
-  3. [Sample Output](/query.md/# SQL-JOIN-ORDER)
+  3. [Sample Output](/query.md/#SQL-JOIN-ORDER)
   
 
