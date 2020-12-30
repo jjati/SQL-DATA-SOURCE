@@ -8,7 +8,7 @@ SELECT CUST_CODE, WORKING_AREA FROM customer WHERE WORKING_AREA ='Bangalore';
 
 ![](/Results/query1.JPG)
 
-[Go Back](/README.md/#SQL-UNION)
+[Go Back](/README.md/# SQL-UNION)
 
 #SQL AVG
 
@@ -26,7 +26,7 @@ WHERE
 
 ![](/Results/query2.JPG)
 
-[Go Back](/README.md/#SQL-AVG)
+[Go Back](/README.md/# SQL-AVG)
 
  
 #SQL CASE
@@ -43,7 +43,7 @@ FROM customer;
 
 ![](/Results/query3.JPG)
 
-[Go Back](/README.md/#SQL-CASE)
+[Go Back](/README.md/# SQL-CASE)
 
 #SQL CONCAT
 
@@ -54,7 +54,7 @@ FROM customer;
 
 ![](/Results/query4.JPG)
 
-[Go Back](/README.md/#SQL-CONCAT)
+[Go Back](/README.md/# SQL-CONCAT)
 
 #SQL LIMIT
 
@@ -70,7 +70,7 @@ FROM
 
  ![](/Results/query5.JPG)
  
- [Go Back](/README.md/#SQL-LIMIT)
+ [Go Back](/README.md/# SQL-LIMIT)
 
 #SQL RIGHT JOIN 
  
@@ -84,7 +84,7 @@ ORDER BY customer.CUST_NAME;
 
  ![](/Results/query6.JPG)
  
- [Go Back](/README.md/#SQL-RIGHT-JOIN)
+ [Go Back](/README.md/# SQL-RIGHT-JOIN)
  
  #SQL LEFT JOIN
  
@@ -97,7 +97,7 @@ ORDER BY customer.CUST_NAME;
 
 ![](/Results/query7.JPG)
  
- [Go Back](/README.md/#SQL-LEFT-JOIN)
+ [Go Back](/README.md/# SQL-LEFT-JOIN)
  
  #SQL NTILE
  
@@ -110,7 +110,7 @@ SELECT PAYMENT_AMT,
 
  ![](/Results/query8.JPG)
  
- [Go Back](/README.md/#SQL-NTILE)
+ [Go Back](/README.md/# SQL-NTILE)
        
  #SQL RANKING FUNCTION 
  
@@ -126,7 +126,7 @@ SELECT CUST_NAME,
 
  ![](/Results/query9.JPG)
  
- [Go Back](/README.md/#SQL-RANKING-FUNCTION)
+ [Go Back](/README.md/# SQL-RANKING-FUNCTION)
  
  #SQL MAX
  
@@ -138,7 +138,7 @@ WHERE PAYMENT_AMT = (SELECT MAX(PAYMENT_AMT) FROM customer);
 
  ![](/Results/query10.JPG)
  
- [Go Back](/README.md/#SQL-MAX)
+ [Go Back](/README.md/# SQL-MAX)
  
  #SQL GROUP BY
  
@@ -154,7 +154,7 @@ GROUP BY
 
  ![](/Results/query11.JPG)
  
- [Go Back](/README.md/#SQL-GROUP-BY)
+ [Go Back](/README.md/# SQL-GROUP-BY)
   
  #SQL TRIGGER
  
@@ -168,7 +168,7 @@ CREATE TRIGGER update_trigger BEFORE UPDATE ON customer FOR EACH ROW SET new.com
 
  ![](/Results/query12.JPG)
  
- [Go Back](/README.md/#SQL-TRIGGER)
+ [Go Back](/README.md/# SQL-TRIGGER)
 
  #SQL DISTINCT
  
@@ -182,7 +182,7 @@ WHERE CUST_CITY >= CUST_CITY);
 
  ![](/Results/query13.JPG)
  
- [Go Back](/README.md/#SQL-DISTINCT)
+ [Go Back](/README.md/# SQL-DISTINCT)
 
  #SQL HAVING
  
@@ -195,7 +195,7 @@ HAVING SUM(PAYMENT_AMT) = 7000.00;
 
  ![](/Results/query14.JPG)
  
- [Go Back](/README.md/#SQL-HAVING)
+ [Go Back](/README.md/# SQL-HAVING)
  
  #SQL BETWEEN OPERATOR
  
@@ -210,7 +210,7 @@ WHERE PAYMENT_AMT BETWEEN '6000.00' AND '9000.00';
 
  ![](/Results/query15.JPG)
  
- [Go Back](/README.md/#SQL-BETWEEN-OPERATOR)
+ [Go Back](/README.md/# SQL-BETWEEN-OPERATOR)
  
  #SQL LIKE OPERATOR
  
@@ -222,7 +222,7 @@ WHERE CUST_NAME LIKE 'S%';
 
  ![](/Results/query16.JPG)
  
- [Go Back](/README.md/#SQL-LIKE-OPERATOR)
+ [Go Back](/README.md/# SQL-LIKE-OPERATOR)
  
  #SQL INNER BY
  
@@ -235,7 +235,7 @@ ORDER BY customer.CUST_NAME;
 
  ![](/Results/query17.JPG)
  
- [Go Back](/README.md/#SQL-INNER-BY)
+ [Go Back](/README.md/# SQL-INNER-BY)
 
  #SQL ORDER BY
  
@@ -245,7 +245,7 @@ ORDER BY customer.CUST_NAME;
 
  ![](/Results/query18.JPG)
  
- [Go Back](/README.md/#SQL-ORDER-BY)
+ [Go Back](/README.md/# SQL-ORDER-BY)
  
  #SQL COUNT
  
@@ -256,7 +256,7 @@ SELECT *FROM orders WHERE 1;
 
  ![](/Results/query19.JPG)
  
- [Go Back](/README.md/#SQL-COUNT)
+ [Go Back](/README.md/# SQL-COUNT)
  
  #
 
