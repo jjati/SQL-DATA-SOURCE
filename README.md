@@ -34,7 +34,7 @@ This database is all about the records of customer’s order, where in order sch
   2. This query combines the result of selected SELECT statement. It removes the duplicate
       between SELECT statement. 
   3. [Sample Output](/query.md)
-#### AVG SQL
+#### SQL CORRELATED SUBQUERY
   1. This query returns the receive amount of the customer using subquery.
   2. This query functions provides the average value of a column.
   3. [Sample Output](/query.md) 
