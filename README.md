@@ -106,9 +106,9 @@ This database is all about the records of customer’s order, where in order sch
   1. This query returns selected column in between the 2 given statement value. 
   2. This query is important becuase instead of using greater than or equal to and less than it is easy to return the aiming result.
   3. [Sample Output](/query.md)
-#### SQL 
-  1.
-  2.
+#### SQL JOIN ORDER
+  1. This query return the selected tables and foreign key in each table 
+  2. This query is importan for us to know the foreign key between 2 tables.
   3.[Sample Output](/query.md)
   
 
