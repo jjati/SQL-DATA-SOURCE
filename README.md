@@ -34,7 +34,7 @@ This database is all about the records of customer’s order, where in order sch
   2. This query combines the result of selected SELECT statement. It removes the duplicate
       between SELECT statement. 
   3. [Sample Output](/query.md)
-#### SQL CORRELATED SUBQUERY
+#### AVG SQL
   1. This query returns the receive amount of the customer using subquery.
   2. This query functions provides the average value of a column.
   3. [Sample Output](/query.md) 
@@ -85,11 +85,11 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL DISTINCT
   1. This query returns the selected columns in 1 table
   2. This query shows only distinct values in the specified column.
-  3.  [Sample Output](/query.md)
+  3. [Sample Output](/query.md)
 #### SQL HAVING
   1. This query returns the sum payment of selected customer with the given specific value.
   2. This query is important because it is used to filter values from a group.
-  3.[Sample Output](/query.md)
+  3. [Sample Output](/query.md)
 #### SQL LIKE OPERATOR
   1. This query returns the results according to the statement given that start with 's'.
   2. This query is important becase it is used in a WHERE clause to search for a specified pattern. 
@@ -101,15 +101,16 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL COUNT
   1. This query returns the count of order amount.
   2. This query is important find the number of unique values within a group
-  3.[Sample Output](/query.md)
+  3. [Sample Output](/query.md)
+#### SQL BETWEEN OPERATOR
+  1. This query returns selected column in between the 2 given statement value. 
+  2. This query is important becuase instead of using greater than or equal to and less than it is easy to return the aiming result.
+  3. [Sample Output](/query.md)
 #### SQL 
   1.
   2.
   3.[Sample Output](/query.md)
-#### SQL 
-  1.
-  2.
-  3.[Sample Output](/query.md)
+  
 
 
 
