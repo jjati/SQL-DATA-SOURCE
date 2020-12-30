@@ -109,7 +109,7 @@ This database is all about the records of customer’s order, where in order sch
 #### SQL JOIN ORDER
   1. This query return the selected tables and foreign key in each table 
   2. This query is importan for us to know the foreign key between 2 tables.
-  3.[Sample Output](/query.md)
+  3. [Sample Output](/query.md)
   
 
 
