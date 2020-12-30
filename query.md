@@ -8,7 +8,7 @@ SELECT CUST_CODE, WORKING_AREA FROM customer WHERE WORKING_AREA ='Bangalore';
 
 ![](/Results/query1.JPG)
 
-[Go Back](/README.md/)
+[Go Back](/README.md/#SQL-UNION)
 
 #SQL AVG
 
