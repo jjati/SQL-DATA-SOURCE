@@ -87,21 +87,29 @@ This database is all about the records of customer’s order, where in order sch
   2. This query shows only distinct values in the specified column.
   3.  [Sample Output](/query.md)
 #### SQL HAVING
+  1. This query returns the sum payment of selected customer with the given specific value.
+  2. This query is important because it is used to filter values from a group.
+  3.[Sample Output](/query.md)
+#### SQL LIKE OPERATOR
+  1. This query returns the results according to the statement given that start with 's'.
+  2. This query is important becase it is used in a WHERE clause to search for a specified pattern. 
+  3. [Sample Output](/query.md)
+#### SQL ORDER BY
+  1. This query returns the order amount, order number order by date given. 
+  2. This query is important because it can sort data, or it can order data by multiple columns.
+  3. [Sample Output](/query.md)
+#### SQL COUNT
+  1. This query returns the count of order amount.
+  2. This query is important find the number of unique values within a group
+  3.[Sample Output](/query.md)
+#### SQL 
   1.
   2.
   3.[Sample Output](/query.md)
-#### SQL LIKE OPERATOR
+#### SQL 
   1.
   2.
-  3. [Sample Output](/query.md)
-#### sQL ORDER BY
-  1.
-  2.
-  3. [Sample Output](/query.md)
-####
-####
-####
-####
-####
+  3.[Sample Output](/query.md)
+
 
 
