@@ -61,7 +61,7 @@ This database is all about the records of customer’s order, where in order sch
   1. This query returns all the records from table 1 along with records of table 2 where the condition is met.
   2. This query must match the rows together to the left join condition in order to return the selected table
   3. [Sample Output](/query.md)
-#### SQL INNER JOIN
+#### SQL INNER JOIN 
   1. This query returns all the records from table 1 and table 2 where the join condition is met.
   2. This query shows the record at the intersection of two tables.
   3. [Sample Output](/query.md)
