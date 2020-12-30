@@ -126,7 +126,7 @@ SELECT CUST_NAME,
 
  ![](/Results/query9.JPG)
  
- [Go Back](/README.md/)
+ [Go Back](/README.md/#SQL-RANKING-FUNCTION)
  
  #SQL MAX
  
